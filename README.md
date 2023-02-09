@@ -7,6 +7,5 @@ I'm using Cleveland dataset for heart disease prediction.You can download it fro
 
 Learn SVM : https://www.javatpoint.com/machine-learning-support-vector-machine-algorithm
 Learn Random forest: https://www.javatpoint.com/machine-learning-random-forest-algorithm
-Learn ANN: https://www.javatpoint.com/artificial-neural-network
-    ANN Types:https://www.upgrad.com/blog/types-of-neural-networks/
+Learn Tabnet: https://arxiv.org/pdf/1908.07442v5.pdf
 

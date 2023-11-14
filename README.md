@@ -1,8 +1,8 @@
 # Heart disease prediction using ML
-Hi I'm Phani, I'm an IT student at BEC,India.
-Currently I'm doing heart disease prediction using ML.
+Hello👋🏻 I'm an Aspiring IT Professional | Web Developer | Python Enthusiast | Game Developer.<br>
+Successfully completed a project on heart disease prediction using ML.<br>
 Used ML algorithms - SVM, TabNet, Random forest
-I'm using Cleveland dataset for heart disease prediction.
+I have used the Cleveland dataset for the heart disease prediction.<br>
 You can download it from this url: https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci <br>
 
 Learn SVM : https://www.javatpoint.com/machine-learning-support-vector-machine-algorithm <br>

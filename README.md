@@ -1,7 +1,7 @@
 # Heart disease prediction using ML
 Hello👋🏻 I'm an Aspiring IT Professional | Web Developer | Python Enthusiast | Game Developer.<br>
 Successfully completed a project on heart disease prediction using ML.<br>
-Used ML algorithms - SVM, TabNet, Random forest
+Used ML algorithms - SVM, TabNet & Random forest
 I have used the Cleveland dataset for the heart disease prediction.<br>
 You can download it from this url: https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci <br>
 

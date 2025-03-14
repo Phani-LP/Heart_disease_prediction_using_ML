@@ -1,0 +1,7 @@
+pip install numpy
+pip install pandas
+pip install matplotlib
+pip install hvplot
+pip install scikit-learn
+pip install pytorch_tabnet
+pip install torch

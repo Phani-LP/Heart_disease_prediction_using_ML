@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Heart Disease Prediction</h1>
+        <form method="post" action="{% url 'predict' %}">
+            {% csrf_token %}
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required placeholder="Ex: 24"><br>
+
+            <label for="trestbps">Blood Pressure:</label>
+            <input type="number" id="trestbps" name="trestbps" required placeholder="Ex: 130"><br>
+
+            <label for="chol">Cholesterol:</label>
+            <input type="number" id="chol" name="chol" required placeholder="Ex: 138"><br>
+
+            <label for="thalach">Max Heart Rate:</label>
+            <input type="number" id="thalach" name="thalach" required placeholder="Ex: 186"><br>
+
+            <label for="oldpeak">Oldpeak:</label>
+            <input type="number" id="oldpeak" name="oldpeak" step="0.1" required placeholder="Values: 0 - 6.2"><br>
+
+            <label for="fbs">Fasting Blood Sugar levels:</label>
+            <select id="fbs" name="fbs" required>
+                <option value="0">Normal</option>
+                <option value="1">Abnormal</option>
+            </select><br>
+
+            <label for="cp">Chest Pain Type:</label>
+            <select id="cp" name="cp" required>
+                <option value="1">Typical</option>
+                <option value="2">Atypical</option>
+                <option value="3">Non-Anginal</option>
+                <option value="4">Asymptomatic</option>
+            </select><br>
+
+            <label for="exang">Exercise induced angina:</label>
+            <select id="exang" name="exang" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select><br>
+
+            <label for="sex">Sex:</label>
+            <select id="sex" name="sex" required>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+            </select><br>
+
+            <label for="restecg">Resting Electro Cardio Graphy (ECG) Results:</label>
+            <select id="restecg" name="restecg" required>
+                <option value="0">Normal</option>
+                <option value="1">ST-T Abnormality</option>
+                <option value="2">Hypertrophy</option>
+            </select><br>
+
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if result %}
+            <div class="result">
+                <h2>Prediction Results:</h2>
+                <p>SVM: {{ result.svm }}</p>
+                <p>Random Forest: {{ result.rf }}</p>
+                <p>TabNet: {{ result.tabnet }}</p>
+                <p><strong>Final Conclusion:</strong> {{ result.conclusion }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

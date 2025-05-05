@@ -172,4 +172,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Author
 
-Hello 👋🏻 I'm an Aspiring IT Professional | Web Developer | Python Enthusiast | Game Developer. Successfully completed this project on heart disease prediction using machine learning.
+Hello 👋🏻 I'm Dasari Naga Phanindra an Aspiring IT Professional | Web Developer | Python Enthusiast | Game Developer | Animator. Successfully completed this project on heart disease prediction using machine learning.

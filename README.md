@@ -164,12 +164,6 @@ The project uses the **Cleveland dataset** for heart disease prediction. Downloa
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
 ## Author
 
 Hello 👋🏻 I'm Dasari Naga Phanindra an Aspiring IT Professional | Web Developer | Python Enthusiast | Game Developer | Animator. Successfully completed this project on heart disease prediction using machine learning.
